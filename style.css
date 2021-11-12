@@ -1,0 +1,97 @@
+.submit{
+    background: none;
+   outline: none;
+   margin-left: 1rem;
+   padding: 4px 15px;
+   /* position: absolute;
+   top: 7.5rem; */
+   border: 1px solid blue;
+   transition: all ease-in .3s;
+   
+
+   
+}
+.submit:hover{
+    border: 2px solid rgb(6, 6, 114);
+    color: blue;
+}
+
+
+.card{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.form-group {
+    /* width: 50%; */
+    /* position: relative; */
+    /* height: 60px; */
+    overflow: hidden;
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+
+    
+    
+    
+}
+ 
+.input {
+    /* width: 1000%;
+    height: 100%;
+    padding-top: 25px;
+    border: none;*/
+    outline: none; 
+    border: 1px solid black;
+}
+
+/*.label-name{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    color: gray;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px solid black;
+    left: 0;
+}
+
+.label-name::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-bottom: 3px solid blue;
+    left: 0;
+    bottom: -2px;
+    transform: translateX(-100%);
+}
+
+.content-name {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    transition: all ease-out 0.3s;
+}
+
+.form-group input:focus +  .label-name .content-name {
+    transform: translateY(-25px);
+    color: blue;
+    font-size: 14px;
+    
+   
+
+} */
+/* .form-group input:valid +  .label-name .content-name {
+    transform: translateY(-15px);
+} */
+
+/* 
+.form-group input:focus + .label-name::after 
+ {
+    transform: translateX(0%);
+
+} */
+
+
